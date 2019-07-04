@@ -1,0 +1,153 @@
+{
+  "basics": {
+    "name": "Cody Bluth",
+    "label": "Software Developer",
+    "picture": "",
+    "email": "cbluth95@gmail.com",
+    "phone": "(307) 321-9252",
+    "website": "http://codybluth.me",
+    "summary": "I am a software developer that specializes in Javascript and Vue.js web app development.",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "cody",
+        "url": "https://www.linkedin.com/in/cody-bluth-1361a4174/"
+      },
+      {
+        "network": "Github",
+        "username": "cbluth95",
+        "url": "https://github.com/cbluth95"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "WYOPC LLC",
+      "position": "Software Engineer",
+      "website": "NA",
+      "startDate": "2016-01-01",
+      "summary": "I have been working at WYOPC for the past 3 years. I have been working with Javascript, Node.js, and the Vue.js framework."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Northwest College",
+      "area": "Software Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2013-01-01",
+      "endDate": "2017-01-01",
+      "gpa": "3.4",
+      "courses": [
+        "Computer Sciences"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Graphics/Media",
+      "level": 4,
+      "keywords": [
+        {
+          "title": "Photoshop",
+          "level": 5
+        },
+        {
+          "title": "Illustrator",
+          "level": 4
+        },
+        {
+          "title": "InDesign",
+          "level": 3
+        },
+        {
+          "title": "After Effects",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "name": "Programming",
+      "keywords": [
+        {
+          "title": "Javascript",
+          "level": 6
+        },
+        {
+          "title": "PHP/MYSQL",
+          "level": 4
+        },
+        {
+          "title": "Node",
+          "level": 4
+        },
+        {
+          "title": "jQuery",
+          "level": 6
+        },
+        {
+          "title": "Vue",
+          "level": 6
+        },
+        {
+          "title": "HTML5/CSS3",
+          "level": 6
+        }
+
+      ]
+    },
+    {
+      "name": "Other",
+      "keywords": [
+        {
+          "title": "Web Design",
+          "level": 6
+        },
+        {
+          "title": "Unity 3D",
+          "level": 6
+        },
+        {
+          "title": "Graphic Design",
+          "level": 5
+        },
+        {
+          "title": "Logo Design",
+          "level": 4
+        }
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor. Lorem ipsum dolor sit amet consectetur adipisicing elit, eiusmod tempor. Proin luctus nulla elit, vitae varius massa.Etiam massa sapien, ultricies quis enim at, tempor fringilla metus. Nulla rhoncus enim sed consectetur. Mauris et eros feugiat, tincidunt eget, dictum neque. Maecenas dapibus sodales magna, eget lectus vehicula non."
+      ]
+    },
+    {
+      "name": "Design",
+      "keywords": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor. Lorem ipsum dolor sit amet consectetur adipisicing elit, eiusmod tempor. Proin luctus nulla elit, vitae varius massa.Etiam massa sapien, ultricies quis enim at, tempor fringilla metus. Nulla rhoncus enim sed consectetur. Mauris et eros feugiat, tincidunt eget, dictum neque. Maecenas dapibus sodales magna, eget lectus vehicula non."
+      ]
+    },
+    {
+      "name": "Marketing",
+      "keywords": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor. Lorem ipsum dolor sit amet consectetur adipisicing elit, eiusmod tempor. Proin luctus nulla elit, vitae varius massa.Etiam massa sapien, ultricies quis enim at, tempor fringilla metus. Nulla rhoncus enim sed consectetur. Mauris et eros feugiat, tincidunt eget, dictum neque. Maecenas dapibus sodales magna, eget lectus vehicula non."
+      ]
+    },
+    {
+      "name": "Support",
+      "keywords": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor. Lorem ipsum dolor sit amet consectetur adipisicing elit, eiusmod tempor. Proin luctus nulla elit, vitae varius massa.Etiam massa sapien, ultricies quis enim at, tempor fringilla metus. Nulla rhoncus enim sed consectetur. Mauris et eros feugiat, tincidunt eget, dictum neque. Maecenas dapibus sodales magna, eget lectus vehicula non."
+      ]
+    }
+  ]
+}
