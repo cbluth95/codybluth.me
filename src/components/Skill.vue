@@ -8,7 +8,7 @@
           <h5 class="subheading" v-text="skill.title" />
         </v-flex>
         <v-flex xs7>
-          <v-rating />
+          <v-rating :value="skill.level" readonly />
         </v-flex>
       </v-layout>
     </div>

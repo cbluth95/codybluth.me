@@ -4,12 +4,16 @@
 
     <v-container py-5 px-0 fluid>
       <about-me />
+      <v-divider />
 
       <experience />
+      <v-divider />
 
       <skills />
+      <v-divider />
 
       <portfolio />
+      <v-divider />
 
       <!-- <clients /> -->
 

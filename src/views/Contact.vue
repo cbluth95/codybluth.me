@@ -3,7 +3,7 @@
     <v-container>
       <v-layout row wrap justify-center>
         <v-flex xs12 justify-center>
-          <core-heading>Let's talk.</core-heading>
+          <core-heading>Contact me.</core-heading>
         </v-flex>
         <v-flex xs12 md5 mb-4 :pr-5="$vuetify.breakpoint.mdAndUp">
           <core-subheading class="text-uppercase">What can I do for you?</core-subheading>

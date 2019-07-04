@@ -1,10 +1,5 @@
 <template>
-  <v-img
-    :src="require('@/assets/abstract3.png')"
-    class="abstract-3"
-    height="100%"
-    width="100%"
-  />
+  <v-img :src="require('@/assets/abstract3.png')" class="abstract-3" height="87%" width="100%" />
 </template>
 
 <style lang="sass">

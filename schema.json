@@ -44,15 +44,12 @@
       "startDate": "2013-01-01",
       "endDate": "2017-01-01",
       "gpa": "3.4",
-      "courses": [
-        "Computer Sciences"
-      ]
+      "courses": ["Computer Sciences"]
     }
   ],
   "skills": [
     {
       "name": "Graphics/Media",
-      "level": 4,
       "keywords": [
         {
           "title": "Photoshop",
@@ -99,7 +96,6 @@
           "title": "HTML5/CSS3",
           "level": 6
         }
-
       ]
     },
     {
