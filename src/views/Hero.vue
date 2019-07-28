@@ -10,12 +10,12 @@
     >
       <div>
         <div
-          :class="`display-${$vuetify.breakpoint.mdAndUp ? '3' : '1'}`"
+          :class="`display-${$vuetify.breakpoint.mdAndUp ? '3' : '2'}`"
           class="text-uppercase"
           v-text="schema.basics.name"
         />
         <h1
-          :class="`display-${$vuetify.breakpoint.mdAndUp ? '4' : '2'}`"
+          :class="`display-${$vuetify.breakpoint.mdAndUp ? '2' : '1'}`"
           class="primary--text text-uppercase"
           v-text="schema.basics.label"
         />

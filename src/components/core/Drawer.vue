@@ -2,13 +2,13 @@
   <v-navigation-drawer
     v-if="$vuetify.breakpoint.mdAndUp"
     app
+    id="nav"
     class="text-xs-center"
-    style="background-color: #181818;"
     permanent
   >
     <v-layout align-center column fill-height justify-center py-5>
       <h2 class="display-3 font-weight-black primary--text mb-2" v-text="initials" />
-      <div class="display-1 mb-2" v-text="schema.basics.name" />
+      <div class="display-1 mb-2 secondary--text" v-text="schema.basics.name" />
       <span class="title font-weight-light mb-5" v-text="schema.basics.label" />
       <v-container fluid>
         <v-layout row wrap justify-center>
@@ -61,10 +61,10 @@ export default {
         text: "Portfolio",
         to: "#portfolio"
       },
-      {
-        text: "Clients",
-        to: "#clients"
-      },
+      // {
+      //   text: "Clients",
+      //   to: "#clients"
+      // },
       {
         text: "Contact",
         to: "#contact"
@@ -77,3 +77,11 @@ export default {
   }
 };
 </script>
+
+<style>
+#nav {
+  background-color: #001010;
+  border-right: 1px solid #00d2c8;
+}
+</style>
+

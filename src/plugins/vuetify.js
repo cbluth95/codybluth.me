@@ -5,8 +5,13 @@ import "vuetify/src/stylus/app.styl";
 
 Vue.use(Vuetify, {
   theme: {
-    primary: "#00d2c8",
-    accent: "#fff"
+    primary: "#DC8C2A", // orange
+    secondary: "#00D2C8", // light blue
+    accent: "#AE81E9", // light purple
+    error: "#FF5252",
+    info: "#00A79F", // accent blue
+    success: "#4CAF50",
+    warning: "#FFC107"
   },
   components: {
     VLayout

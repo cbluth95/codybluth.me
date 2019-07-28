@@ -33,13 +33,13 @@
       </section>
 
       <section>
-        <core-heading v-text="'What I can do for you.'" />
+        <core-heading v-text="'What I can do!'" />
         <div>
           <v-expansion-panel v-model="expansion" popout>
             <v-expansion-panel-content
               v-for="(item,i) in items"
               :key="i"
-              :class="expansion !== i ? 'transparent' : ''"
+              :class="expansion !== i ? 'transparent' : ' info'"
             >
               <div slot="header" class="title font-weight-light">
                 <div v-text="item.name" />
@@ -58,8 +58,8 @@
     </v-flex>
 
     <v-flex hidden-sm-and-down md5 text-xs-right text-uppercase>
-      <div class="display-1" v-text="schema.basics.label" />
-      <span class="primary--text headline font-weight-light" v-text="schema.basics.name" />
+      <!-- <div class="display-1" v-text="schema.basics.label" />
+      <span class="primary--text headline font-weight-light" v-text="schema.basics.name" />-->
       <!-- <v-img
         :src="require('@/assets/john.png')"
         height="100%"
