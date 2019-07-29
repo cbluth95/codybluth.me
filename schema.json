@@ -123,9 +123,7 @@
   "interests": [
     {
       "name": "Web Development",
-      "keywords": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor. Lorem ipsum dolor sit amet consectetur adipisicing elit, eiusmod tempor. Proin luctus nulla elit, vitae varius massa.Etiam massa sapien, ultricies quis enim at, tempor fringilla metus. Nulla rhoncus enim sed consectetur. Mauris et eros feugiat, tincidunt eget, dictum neque. Maecenas dapibus sodales magna, eget lectus vehicula non."
-      ]
+      "keywords": ["I can build scaleable responsive web apps."]
     },
     {
       "name": "Design",

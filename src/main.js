@@ -2,6 +2,7 @@ import Vue from "vue";
 import "./plugins/base";
 import "./plugins/vuetify";
 import "./plugins/animatecss";
+import "./plugins/aos";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";

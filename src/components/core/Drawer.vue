@@ -58,13 +58,13 @@ export default {
         to: "#skills"
       },
       {
-        text: "Portfolio",
+        text: "My Work",
         to: "#portfolio"
       },
-      // {
-      //   text: "Clients",
-      //   to: "#clients"
-      // },
+      {
+        text: "Clients",
+        to: "#clients"
+      },
       {
         text: "Contact",
         to: "#contact"

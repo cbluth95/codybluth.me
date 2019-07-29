@@ -1,95 +1,56 @@
 <template>
   <core-section id="clients">
-    <abstract-4 />
+    <abstract-3 />
+    <core-heading v-text="'My Clients'" />
 
-    <core-heading>What my clients say.</core-heading>
-
-    <v-layout
-      mb-5
-      wrap
-    >
-      <v-flex
-        v-for="(client, i) in clients"
-        :key="`quote-${i}`"
-        xs12
-        md4
-      >
-        <client :value="client" />
-      </v-flex>
-    </v-layout>
-
-    <v-layout
-      v-if="logos.length"
-      wrap
-    >
-      <v-flex
-        v-for="(logo, i) in logos"
-        :key="`logo-${i}`"
-        xs6
-        md3
-      >
-        <v-img
-          :src="require(`@/assets/logos/${logo}`)"
-          height="75"
-          contain
-        />
-      </v-flex>
-    </v-layout>
+    <v-carousel :height="600" class="elevation-0" hide-controls :cycle="true">
+      <v-carousel-item v-for="(project, i) in projects" :key="i">
+        <project :value="project" />
+      </v-carousel-item>
+    </v-carousel>
   </core-section>
 </template>
 
 <script>
-  export default {
-    components: {
-      Abstract4: () => import('@/components/Abstract4'),
-      Client: () => import('@/components/Client')
-    },
+export default {
+  components: {
+    Abstract3: () => import("@/components/Abstract3"),
+    Project: () => import("@/components/Project")
+  },
 
-    data: () => ({
-      clients: [
-        {
-          quote: 'Aliquam sit amet eros id lorem posuere lobortis ut id enim. Proin ullamcorper fringilla risus et lacinia.Aliquam eget lacus a libero.',
-          name: 'J. Williams',
-          company: 'Motion',
-          avatar: 'Client1.png'
-        },
-        {
-          quote: 'Aliquam sit amet eros id lorem posuere lobortis ut id enim. Proin ullamcorper fringilla risus et lacinia.Aliquam eget lacus a libero.',
-          name: 'A. Long',
-          company: 'Classic Cafe',
-          avatar: 'Client2.png'
-        },
-        {
-          quote: 'Aliquam sit amet eros id lorem posuere lobortis ut id enim. Proin ullamcorper fringilla risus et lacinia.Aliquam eget lacus a libero.',
-          name: 'M. Hernandez',
-          company: 'Flagship',
-          avatar: 'Client3.png'
-        },
-        {
-          quote: 'Aliquam sit amet eros id lorem posuere lobortis ut id enim. Proin ullamcorper fringilla risus et lacinia.Aliquam eget lacus a libero.',
-          name: 'L. McCannon',
-          company: 'Motion',
-          avatar: 'Client4.png'
-        },
-        {
-          quote: 'Aliquam sit amet eros id lorem posuere lobortis ut id enim. Proin ullamcorper fringilla risus et lacinia.Aliquam eget lacus a libero.',
-          name: 'A. Mah',
-          company: 'Classic Cafe',
-          avatar: 'Client5.png'
-        },
-        {
-          quote: 'Aliquam sit amet eros id lorem posuere lobortis ut id enim. Proin ullamcorper fringilla risus et lacinia.Aliquam eget lacus a libero.',
-          name: 'H. Russo',
-          company: 'Flagship',
-          avatar: 'Client6.png'
+  data: () => ({
+    projects: [
+      {
+        name: "The Movies",
+        category: "Vue.js (PWA)",
+        src: "themovies.png",
+        details: {
+          client: "The Movies",
+          date: "2018-4-19",
+          link: "https://www.themovies3.com",
+          description:
+            "Using Vue.js for the front-end and node for the back-end I was able to create a simple site for a local movie theater. Secure online ticketing and payment solution are coming soon."
         }
-      ],
-      logos: [
-        'motion.png',
-        'cafe.png',
-        'flagship.png',
-        'biere.png'
-      ]
-    })
-  }
+      },
+      {
+        name: "Daycare Website",
+        category: "Website Design",
+        src: "otpywg.jpg",
+        details: {
+          client: "Oh, the Places you Will Go",
+          date: "2018-4-19",
+          link: "https://www.ohtheplacesdaycare.com",
+          description:
+            "I built a simple mobile friendly site for a local daycare. I used Javascript as well as the Bootstrap framework in order to bring their vision to life."
+        }
+      }
+    ]
+  })
+};
 </script>
+
+<style>
+.v-carousel__controls {
+  background: transparent;
+}
+</style>
